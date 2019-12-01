@@ -1,0 +1,43 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.lan.korment.bean.Person",
+      "name": "person",
+      "type": "com.lan.korment.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.lan.korment.bean.Person",
+      "name": "person.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.lan.korment.bean.Person",
+      "name": "person.boss",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.lan.korment.bean.Person",
+      "name": "person.dog",
+      "type": "com.lan.korment.bean.Dog"
+    },
+    {
+      "sourceType": "com.lan.korment.bean.Person",
+      "name": "person.last-name",
+      "description": "<bean class=\"Person\">\n     <property name=\"lastName\" value=\"字面量\/${key}从环境变量\/#{spEL}\"><\/property>\n <\/bean>",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.lan.korment.bean.Person",
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>"
+    },
+    {
+      "sourceType": "com.lan.korment.bean.Person",
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>"
+    }
+  ]
+}
